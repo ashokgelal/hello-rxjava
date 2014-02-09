@@ -1,11 +1,13 @@
 /**
+ * Translation of RxLinq Defer example from msdn: http://msdn.microsoft.com/en-us/library/hh229160.aspx
+ * RxJava wiki: https://github.com/Netflix/RxJava/wiki/Creating-Observables#wiki-defer
  * Created by ashokgelal on 2/9/14.
  */
 
 package rxdemo
+
 import rx.Observable
 
-// Translation of RxLinq Defer example from msdn: http://msdn.microsoft.com/en-us/library/hh229160.aspx
 public class RxDefer(){
     public fun run() {
         var inventory = ProductInventory()
